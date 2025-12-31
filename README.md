@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -88,6 +89,12 @@
             font-weight: bold;
         }
 
+        .whitelist {
+            border-left: 4px solid #ffffff;
+            padding-left: 20px;
+            background: rgba(30, 30, 30, 0.75);
+        }
+
         .join {
             text-align: center;
             margin-top: 50px;
@@ -145,6 +152,7 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about">Über uns</a></li>
+            <li><a href="#whitelist">Whitelist</a></li>
             <li><a href="#join">Join</a></li>
             <li><a href="#socials">Socials</a></li>
         </ul>
@@ -174,6 +182,23 @@
             ohne ihren Einsatz, ihre Zeit und ihre Vision gäbe es CSL – Roleplay nicht.
         </div>
 
+        <!-- WHITELIST -->
+        <div class="card whitelist" id="whitelist">
+            <p>
+                <strong>Whitelist-Hinweis:</strong><br>
+                Der Zugang zu CSL – Roleplay erfolgt ausschließlich über eine Whitelist.
+                Die Whitelist läuft über unseren Discord-Server.
+            </p>
+
+            <p>
+                Mit dem Beitritt erklärst du dich einverstanden,
+                dass sowohl die <strong>Discord-Regeln</strong>
+                als auch die <strong>FiveM-Serverregeln</strong> verbindlich gelten.
+                Regelverstöße werden entsprechend geahndet.
+            </p>
+        </div>
+
+        <!-- JOIN -->
         <div class="join" id="join">
             <h2>Jetzt beitreten</h2>
             <div class="join-buttons">
@@ -182,6 +207,7 @@
             </div>
         </div>
 
+        <!-- SOCIALS -->
         <div class="socials" id="socials">
             <a href="https://www.youtube.com/@CSL-1.0" target="_blank">YouTube</a>
             <a href="https://www.tiktok.com/@project.california.fivem?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
@@ -195,4 +221,3 @@
 
 </body>
 </html>
-
